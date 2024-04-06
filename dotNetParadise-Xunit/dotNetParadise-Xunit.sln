@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{82ECC9B0-2C1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetParadise-TDD.Test", "dotNetParadise-TDD.Test\dotNetParadise-TDD.Test.csproj", "{F5AF3132-EB75-4623-8E6E-50CBDAD75E1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AF3132-EB75-4623-8E6E-50CBDAD75E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AF3132-EB75-4623-8E6E-50CBDAD75E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AF3132-EB75-4623-8E6E-50CBDAD75E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AF3132-EB75-4623-8E6E-50CBDAD75E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1} = {86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}
+		{F5AF3132-EB75-4623-8E6E-50CBDAD75E1F} = {86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5A0CEBD-CAEC-4AA5-82FF-A51D40DD9E7D}
