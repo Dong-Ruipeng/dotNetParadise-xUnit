@@ -10,7 +10,7 @@ public class StaffRepository : IStaffRepository
     public DbSet<Staff> dbSet => _dbContext.Set<Staff>();
     public StaffRepository(SampleDbContext dbContext)
     {
-        dbContext.Database.EnsureCreated();
+        //dbContext.Database.EnsureCreated();
         _dbContext = dbContext;
     }
     public async Task AddStaffAsync(Staff staff, CancellationToken cancellationToken = default)
