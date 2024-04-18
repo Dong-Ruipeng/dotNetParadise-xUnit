@@ -20,4 +20,24 @@ public class FakeData
         var staffs = faker.Generate(count);
         FakeData.Staffs.AddRange(staffs);
     }
+
+
+    public static Staff TakeStaff(int? id = null)
+    {
+        var faker = new Faker<Staff>()
+       .RuleFor(u => u.Name, f => f.Person.FullName)
+       .RuleFor(u => u.Email, f => f.Person.Email)
+       .RuleFor(u => u.Age, f => f.Random.Number(18, 60))
+       .RuleFor(u => u.Addresses, f => f.MakeLazy(f.Random.Number(1, 3), () => f.Address.FullAddress()).ToList())
+       .RuleFor(u => u.Created, f => f.Date.PastOffset());
+
+        if (id is not null)
+        {
+            faker.RuleFor(u => u.Id, id);
+        }
+        var staff = faker.Generate();
+        return staff;
+
+
+    }
 }

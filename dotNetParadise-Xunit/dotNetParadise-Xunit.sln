@@ -18,7 +18,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotNetParadise.FakeTest", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotNetParadise.DependencyInjection", "dotNetParadise.DependenceInjectTest\dotNetParadise.DependencyInjection.csproj", "{41913C03-8CB2-45AF-AA93-9F68D8E75444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetParadise.Bogus", "dotNetParadise.Bogus\dotNetParadise.Bogus.csproj", "{88FA4A41-0317-4DE9-BBC4-B24F06677973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotNetParadise.Bogus", "dotNetParadise.Bogus\dotNetParadise.Bogus.csproj", "{88FA4A41-0317-4DE9-BBC4-B24F06677973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetParadise.IntegrationTest", "dotNetParadise.IntegrationTest\dotNetParadise.IntegrationTest.csproj", "{6B09EB1E-503C-4A01-A362-6DCF1FCF6B9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,10 @@ Global
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B09EB1E-503C-4A01-A362-6DCF1FCF6B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B09EB1E-503C-4A01-A362-6DCF1FCF6B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B09EB1E-503C-4A01-A362-6DCF1FCF6B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B09EB1E-503C-4A01-A362-6DCF1FCF6B9D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{88FA4A41-0317-4DE9-BBC4-B24F06677973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{88FA4A41-0317-4DE9-BBC4-B24F06677973}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88FA4A41-0317-4DE9-BBC4-B24F06677973}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -60,6 +66,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1} = {86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}
+		{6B09EB1E-503C-4A01-A362-6DCF1FCF6B9D} = {86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}
 		{88FA4A41-0317-4DE9-BBC4-B24F06677973} = {86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}
 		{F5AF3132-EB75-4623-8E6E-50CBDAD75E1F} = {86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}
 		{86B8D4C8-74F6-4E68-B0EA-C29603233E50} = {82ECC9B0-2C11-491C-9296-B80E17166791}

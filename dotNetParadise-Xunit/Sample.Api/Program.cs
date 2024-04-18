@@ -1,10 +1,7 @@
-using System.Reflection.Metadata;
 using Sample.Repository.Contexts;
 using Sample.Repository.Extensions;
 using Sample.Repository.SeedData;
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -14,11 +11,13 @@ builder.Services.AddProblemDetails();
 builder.Services.AddEFCoreInMemoryAndRepository();
 var app = builder.Build();
 
+
+app.UseSwagger();
+app.UseSwaggerUI();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+
     app.UseDeveloperExceptionPage();
 }
 else
@@ -40,7 +39,11 @@ using (var context = app.Services.CreateScope().ServiceProvider.GetRequiredServi
     await context.Staffs.AddRangeAsync(FakeData.Staffs);
     await context.SaveChangesAsync();
 }
-
+app.MapGet("GetConfig", IResult () =>
+{
+    return TypedResults.Ok(app.Configuration["Config"]);
+});
 app.Run();
 
 
+public partial class Program { }
