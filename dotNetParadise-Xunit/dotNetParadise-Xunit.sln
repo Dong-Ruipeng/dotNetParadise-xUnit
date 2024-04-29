@@ -24,7 +24,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotNetParadise.IntegrationT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotNetParadise.MiddlerWareTest", "dotNetParadise.MiddlerWareTest\dotNetParadise.MiddlerWareTest.csproj", "{D891FCCD-E328-4E1D-9968-C3B1ADE3CFD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetParadise.CodeCoverage", "dotNetParadise.CodeCoverage\dotNetParadise.CodeCoverage.csproj", "{8707E0C9-DC65-4717-9841-34C78C93F183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotNetParadise.CodeCoverage", "dotNetParadise.CodeCoverage\dotNetParadise.CodeCoverage.csproj", "{8707E0C9-DC65-4717-9841-34C78C93F183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetParadise.AutoFixture", "dotNetParadise.AutoFixture\dotNetParadise.AutoFixture.csproj", "{3B4A5763-F5C2-4B32-BDF7-C50AFCF2CF66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,10 @@ Global
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4A5763-F5C2-4B32-BDF7-C50AFCF2CF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4A5763-F5C2-4B32-BDF7-C50AFCF2CF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4A5763-F5C2-4B32-BDF7-C50AFCF2CF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4A5763-F5C2-4B32-BDF7-C50AFCF2CF66}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6B09EB1E-503C-4A01-A362-6DCF1FCF6B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6B09EB1E-503C-4A01-A362-6DCF1FCF6B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B09EB1E-503C-4A01-A362-6DCF1FCF6B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -78,6 +84,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{299D5EB5-293A-4D53-BCE9-AF46B656F7F1} = {86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}
+		{3B4A5763-F5C2-4B32-BDF7-C50AFCF2CF66} = {86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}
 		{6B09EB1E-503C-4A01-A362-6DCF1FCF6B9D} = {86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}
 		{8707E0C9-DC65-4717-9841-34C78C93F183} = {86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}
 		{88FA4A41-0317-4DE9-BBC4-B24F06677973} = {86A046EA-F4C7-40A2-BEB5-8D4CC910B9CD}
